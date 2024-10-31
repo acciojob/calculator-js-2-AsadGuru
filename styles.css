@@ -1,24 +1,4 @@
 /*  your css code here. If applicable */
 
-#calculator {
-	width: 220px;
-	margin: 50px auto;
-	padding:20px;
-	border:1px solid #ccc;
-	border-radius: 15px;
-}
-
-#display {
-	width: 100%;
-	height: 40px;
-	margin-bottom: 10px;
-	text-align: right;
-	font-size: 20px;
-	padding: 5px;
-}
-
-button {
-	width: 45px;
-	height:45px;
-	margin:2px;
-}
+        /* Basic styling for the calculator */
+        
