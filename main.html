@@ -84,6 +84,10 @@ function backspace() {
 
 function calculate() {
     try {
+        // Check if the expression is valid before evaluating
+        if (display.value === '' || /[+\-*/]$/.test(display.value)) {
+            throw new Error('Invalid expression');
+        }
         display.value = eval(display.value);
     } catch (error) {
         display.value = 'Error';
